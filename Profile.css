@@ -1,0 +1,14 @@
+body { font-family: 'Segoe UI', sans-serif; display: flex; margin: 0; background: #f4f7f6; }
+        .sidebar { width: 250px; background: #003366; color: white; height: 100vh; padding: 20px; position: fixed; }
+        .sidebar a { color: white; text-decoration: none; display: block; padding: 10px 0; }
+        .main-content { margin-left: 290px; padding: 40px; width: calc(100% - 330px); }
+        .welcome-header { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px;}
+        .card { background: white; padding: 20px; margin-bottom: 15px; border-radius: 8px; border-left: 5px solid #e03131; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .scroll-box { height: 150px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; border-radius: 4px; background: #fff; margin-bottom: 15px;}
+        .item { display: block; padding: 5px 0; font-size: 14px; }
+        input[type="text"], input[type="number"], textarea { width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; }
+        button[name="complete_profile_btn"] { background: #003366; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; width: 100%; }
+        .msg { color: #e03131; font-weight: bold; background: #ffeded; padding: 10px; border-radius: 4px; }
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {-webkit-appearance: none;margin: 0;}

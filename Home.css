@@ -1,0 +1,11 @@
+body { font-family: 'Segoe UI', sans-serif; margin: 0; color: #333; line-height: 1.6; }
+        header { background: #003366; color: white; padding: 60px 20px; text-align: center; }
+        .container { max-width: 1100px; margin: auto; padding: 20px; }
+        .features { display: flex; justify-content: space-around; padding: 50px 0; background: #f4f7f6; }
+        .feature-card { flex: 1; margin: 0 15px; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center;}
+        .feature-card ul { text-align: left; display: inline-block; padding-left: 20px;}
+        .auth-section { display: flex; gap: 40px; padding: 50px 0; }
+        .auth-box { flex: 1; padding: 30px; border: 1px solid #ddd; border-radius: 10px; }
+        input, select, button { width: 100%; padding: 12px; margin: 10px 0; border-radius: 5px; box-sizing: border-box; }
+        button { background: #e03131; color: white; border: none; cursor: pointer; font-weight: bold; }
+        .msg { color: #e03131; font-weight: bold; text-align: center; }
